@@ -18,6 +18,6 @@ Also, there are many inefficiencies here and there, whatever
 
 ### Demo:
 
-
+![](https://raw.githubusercontent.com/modelflat/minesweeper-solver/master/img/minesweeper.gif)
 
 
