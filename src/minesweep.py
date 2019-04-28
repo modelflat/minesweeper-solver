@@ -21,15 +21,11 @@ COL2NUM = {
     (128, 128, 128): 8
 }
 
-from multiprocessing.pool import ThreadPool
-
-thd = ThreadPool()
-
-pyautogui.PAUSE = 0.03
+pyautogui.PAUSE = 0.02
 
 
 def find_minesweeper_field(shape):
-    loc = pyautogui.locateOnScreen("D:\\smiley_face.png", grayscale=True)
+    loc = pyautogui.locateOnScreen("../img/smiley_face.png", grayscale=True)
     if loc is None:
         raise RuntimeError("Cannot find minesweeper smiley face")
     x, y = loc.left, loc.top
