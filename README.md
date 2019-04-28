@@ -16,7 +16,6 @@ The last step can be replaced by something more sophisticated
 
 Also, there are many inefficiencies here and there, whatever
 
-### Demo:
 
 ![](https://raw.githubusercontent.com/modelflat/minesweeper-solver/master/img/minesweeper.gif)
 
